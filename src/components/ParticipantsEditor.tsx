@@ -96,7 +96,9 @@ export default function ParticipantsEditor({
             giftOnly: true,
             cocktailAmount: 0,
             shotAmount: 0,
-            foodWeight: 0
+            foodWeight: 0,
+            ateBitterballen: false,
+            ateNachos: false
           }
         : { giftOnly: false }
     );
@@ -121,6 +123,8 @@ export default function ParticipantsEditor({
         cocktailAmount: 0,
         shotAmount: 0,
         foodWeight: 0,
+        ateBitterballen: false,
+        ateNachos: false,
         prepaidCents: 0
       }
     ]);

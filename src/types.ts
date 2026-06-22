@@ -20,6 +20,8 @@ export type Participant = {
   cocktailAmount: number;
   shotAmount: number;
   foodWeight: FoodWeight;
+  ateBitterballen: boolean;
+  ateNachos: boolean;
   prepaidCents: number;
 };
 

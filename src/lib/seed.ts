@@ -101,6 +101,8 @@ export function createSeedParticipants(
       cocktailAmount: 0,
       shotAmount: 0,
       foodWeight: 0,
+      ateBitterballen: false,
+      ateNachos: false,
       prepaidCents: 0
     };
   });
